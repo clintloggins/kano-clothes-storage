@@ -12,6 +12,40 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
+                    "x": 0.08784773060029283,
+                    "y": 0.2480916030534351,
+                    "uniqueID": 701895,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 11.5
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 0.25
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.2642752562225476,
+                    "y": 0.20229007633587787,
+                    "uniqueID": 487405,
+                    "ioValues": [
+                        {
+                            "name": "yDist",
+                            "ioValue": -2.5
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0.5
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
                     "x": 0.3382137628111274,
                     "y": 0.10305343511450381,
                     "uniqueID": 266682,
@@ -35,27 +69,6 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 0.5
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 0.3506588579795022,
-                    "y": 0.3091603053435114,
-                    "uniqueID": 487405,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": -2.5
-                        },
-                        {
-                            "name": "zDist",
                             "ioValue": 0.5
                         }
                     ]
@@ -212,6 +225,20 @@
             "allConnectors": [
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "xDist",
+                    "ap2Primary": false,
+                    "ap1ID": 701895,
+                    "ap2ID": 487405
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 487405,
+                    "ap2ID": 907472
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 266682,
@@ -223,13 +250,6 @@
                     "ap2Primary": false,
                     "ap1ID": 299553,
                     "ap2ID": 404022
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 487405,
-                    "ap2ID": 907472
                 },
                 {
                     "ap1Name": "geometry",
