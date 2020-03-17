@@ -34,6 +34,10 @@
                     "uniqueID": 487405,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "yDist",
                             "ioValue": -2.5
                         },
@@ -81,6 +85,10 @@
                     "uniqueID": 907472,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "height",
                             "ioValue": -0.25
                         }
@@ -92,7 +100,12 @@
                     "x": 0.5212298682284041,
                     "y": 0.25190839694656486,
                     "uniqueID": 404022,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "geometry2",
+                            "ioValue": ""
+                        }
+                    ]
                 },
                 {
                     "atomType": "Rectangle",
@@ -217,7 +230,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 0.9853587115666179,
+                    "x": 0.9672131147540984,
                     "y": 0.5,
                     "ioValues": []
                 }
